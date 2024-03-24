@@ -20,7 +20,7 @@ function Footer() {
       </div>
       <div className='w-1/2'>
         <div className='flex flex-col'>
-      <h1 className='uppercase font-["Founders_Grotesk_X-Condensed"] font-bold text-9xl'>presentations</h1>
+      <h1 className='uppercase font-grotesk font-bold text-9xl'>presentations</h1>
       <div className="dets font-['Neue_Montreal']">
         <div>
             <p className='pb-6 '>S:</p>
