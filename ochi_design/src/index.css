@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: NeueMontreal;
+  src: url(./Assets/Fonts/NeueMontreal-Regular.ttf);
+}
+@font-face {
+  font-family: Grotesk;
+  src: url(./Assets/Fonts/FoundersGrotesk-Semibold.ttf);
+}
+.font-neue{
+  font-family: NeueMontreal;
+}
+.font-grotesk{
+  font-family: Grotesk;
+}
+.bg-1{
+  background-image: url(./Assets/Images/bg_1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
