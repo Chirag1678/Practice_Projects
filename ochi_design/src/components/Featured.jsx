@@ -8,7 +8,7 @@ function Featured() {
     const [first, setfirst] = useState(false);
     const [second, setsecond] = useState(false);
   return (
-    <div className='w-full pt-20 font-["Neue_Montreal"]'>
+    <div className='w-full pt-20 font-neue'>
       <div className='w-full px-12 border-b-2 border-zinc-800 pb-10'>
         <h1 className='text-5xl tracking-wide'>Feautred projects</h1>
       </div>

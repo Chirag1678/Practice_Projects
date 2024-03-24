@@ -5,7 +5,7 @@ import couple from '../Assets/Images/Homepage_Couple.jpeg';
 function About() {
   const [first, setfirst] = useState(false);
   return (
-    <div data-scroll data-scroll-speed=".1" className='w-full bg-[#cdea68] rounded-tr-3xl rounded-tl-3xl text-black font-["Neue_Montreal"]'>
+    <div data-scroll data-scroll-speed=".1" className='w-full bg-[#cdea68] rounded-tr-3xl rounded-tl-3xl text-black font-neue'>
       <h1 className='w-3/4 text-5xl font-light py-20 leading-[3.5vw] px-12'>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
       <div className='border-t border-[#a1b562] py-5 px-12 flex justify-between'>
         <div className='w-1/2'>

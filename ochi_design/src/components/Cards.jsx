@@ -5,7 +5,7 @@ import logo3 from '../Assets/Images/logo003.png';
 
 function Cards() {
   return (
-    <div className='w-full h-screen py-20 px-12 font-["Neue_Montreal"]'>
+    <div className='w-full h-screen py-20 px-12 font-neue'>
       <div className='w-full flex items-center justify-between gap-5'>
         <div className='relative bg-[#004D43] w-1/2 rounded-xl h-[50vh] flex items-center justify-center'>
             <img src={logo1} alt="logo001" className='w-36'/>

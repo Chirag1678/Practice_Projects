@@ -10,7 +10,7 @@ function LandingPage() {
         {["we create","eye-opening","presentations"].map((item,index)=><div className="masker" key={index}>
             <div className="w-fit flex">
                 {index===1 && (<motion.div initial={{width:0}} animate={{width:'8.5rem', marginRight:".75rem" }} transition={{ease:[.76,0,.24,1], duration:1}} className='w-[8.5rem] relative -top-[1rem] h-[5.5vw] rounded-md overflow-hidden'><img src={first} alt='firstone'/></motion.div>)}
-            <h1 className='flex items-center text-[7.5rem] h-full leading-[6.3vw] uppercase font-["Founders_Grotesk_X-Condensed"] font-bold'>{item}</h1>
+            <h1 className='flex items-center text-[7.5rem] h-full leading-[6.3vw] uppercase font-grotesk font-bold'>{item}</h1>
             </div>
         </div>)}
       </div>

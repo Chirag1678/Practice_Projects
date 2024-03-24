@@ -5,8 +5,8 @@ function Footer() {
     <div className='w-full flex justify-between px-12 pt-24 pb-5 gap-5'>
       <div className='w-1/2 flex flex-col justify-between'>
         <div>
-        <h1 className='uppercase font-["Founders_Grotesk_X-Condensed"] font-bold text-9xl'>eve-</h1>
-        <h1 className='uppercase font-["Founders_Grotesk_X-Condensed"] font-bold text-9xl -mt-8'>opening</h1>
+        <h1 className='uppercase font-grotesk font-bold text-9xl'>eve-</h1>
+        <h1 className='uppercase font-grotesk font-bold text-9xl -mt-8'>opening</h1>
         </div>
         <div className="logo">
         <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
